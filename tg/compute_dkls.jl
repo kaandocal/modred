@@ -16,7 +16,7 @@ rn = @reaction_network begin
 end σ_on σ_off ρ
 
 rn_red = @reaction_network begin
-    ρ, 0 --> 0 + P
+    ρ, 0 --> P 
 end ρ
 
 u0 = [ 0., 0. ] 
